@@ -10,7 +10,7 @@ class DBHandler(context: Context, factory:SQLiteDatabase.CursorFactory?)
 
     companion object{
         const val DATABASE_NAME = "HRManager.db"
-        const val DB_VERSION = 1
+        const val DB_VERSION = 2
     }
     private val tableName:String = "PERSON"
     private val keyID:String="ID"
